@@ -1,8 +1,9 @@
 
-package controller;
+package com.jpaDemo2.jpaDemo2.controller;
 
+import com.jpaDemo2.jpaDemo2.model.Persona;
 import java.util.List;
-import model.Persona;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import service.IPersonaService;
+import com.jpaDemo2.jpaDemo2.service.IPersonaService;
 
 @RestController
 public class PersonaController {

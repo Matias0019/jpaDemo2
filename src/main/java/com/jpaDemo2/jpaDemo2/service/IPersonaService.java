@@ -1,8 +1,9 @@
 
-package service;
+package com.jpaDemo2.jpaDemo2.service;
 
+import com.jpaDemo2.jpaDemo2.model.Persona;
 import java.util.List;
-import model.Persona;
+
 
 public interface IPersonaService {
     public List<Persona> getPersonas ();

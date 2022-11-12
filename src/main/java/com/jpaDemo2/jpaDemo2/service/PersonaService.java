@@ -1,11 +1,12 @@
 
-package service;
+package com.jpaDemo2.jpaDemo2.service;
 
+import com.jpaDemo2.jpaDemo2.model.Persona;
 import java.util.List;
-import model.Persona;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.PersonaRepository;
+import com.jpaDemo2.jpaDemo2.repository.PersonaRepository;
 
 @Service
 public class PersonaService implements IPersonaService {

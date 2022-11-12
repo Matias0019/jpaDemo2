@@ -1,7 +1,8 @@
 
-package repository;
+package com.jpaDemo2.jpaDemo2.repository;
 
-import model.Persona;
+
+import com.jpaDemo2.jpaDemo2.model.Persona;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

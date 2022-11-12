@@ -1,5 +1,5 @@
 
-package model;
+package com.jpaDemo2.jpaDemo2.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
